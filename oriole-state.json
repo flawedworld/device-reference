@@ -2227,7 +2227,387 @@
       "product/priv-app/SettingsIntelligence/SettingsIntelligence.apk"
     ],
     "vendor": [
+      "vendor/bin/[",
+      "vendor/bin/acpi",
+      "vendor/bin/applypatch",
+      "vendor/bin/awk",
+      "vendor/bin/base64",
+      "vendor/bin/basename",
+      "vendor/bin/blockdev",
+      "vendor/bin/boringssl_self_test32",
+      "vendor/bin/boringssl_self_test64",
+      "vendor/bin/cal",
+      "vendor/bin/cat",
+      "vendor/bin/chattr",
+      "vendor/bin/chcon",
+      "vendor/bin/checkpoint_gc",
+      "vendor/bin/chgrp",
+      "vendor/bin/chmod",
+      "vendor/bin/chown",
+      "vendor/bin/chroot",
+      "vendor/bin/chrt",
+      "vendor/bin/cksum",
+      "vendor/bin/clear",
+      "vendor/bin/cmp",
+      "vendor/bin/comm",
+      "vendor/bin/cp",
+      "vendor/bin/cpio",
+      "vendor/bin/cut",
+      "vendor/bin/date",
+      "vendor/bin/dd",
+      "vendor/bin/devmem",
+      "vendor/bin/df",
+      "vendor/bin/diff",
+      "vendor/bin/dirname",
+      "vendor/bin/dmesg",
+      "vendor/bin/dos2unix",
+      "vendor/bin/du",
+      "vendor/bin/dumpsys",
+      "vendor/bin/echo",
+      "vendor/bin/egrep",
+      "vendor/bin/env",
+      "vendor/bin/expand",
+      "vendor/bin/expr",
+      "vendor/bin/fallocate",
+      "vendor/bin/false",
+      "vendor/bin/fgrep",
+      "vendor/bin/file",
+      "vendor/bin/find",
+      "vendor/bin/flock",
+      "vendor/bin/fmt",
+      "vendor/bin/free",
+      "vendor/bin/fsync",
+      "vendor/bin/getconf",
+      "vendor/bin/getenforce",
+      "vendor/bin/getevent",
+      "vendor/bin/getprop",
+      "vendor/bin/grep",
+      "vendor/bin/groups",
+      "vendor/bin/gunzip",
+      "vendor/bin/gzip",
+      "vendor/bin/head",
+      "vendor/bin/hostname",
+      "vendor/bin/hw/android.hardware.atrace@1.0-service.pixel",
+      "vendor/bin/hw/android.hardware.audio.service",
+      "vendor/bin/hw/android.hardware.boot@1.2-service-gs101",
+      "vendor/bin/hw/android.hardware.cas@1.2-service",
+      "vendor/bin/hw/android.hardware.contexthub@1.2-service.generic",
+      "vendor/bin/hw/android.hardware.drm@1.4-service.clearkey",
+      "vendor/bin/hw/android.hardware.dumpstate@1.1-service.gs101",
+      "vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty",
+      "vendor/bin/hw/android.hardware.gnss@2.1-service-brcm",
+      "vendor/bin/hw/android.hardware.graphics.allocator@4.0-service",
+      "vendor/bin/hw/android.hardware.graphics.composer@2.4-service",
+      "vendor/bin/hw/android.hardware.health.storage-service.default",
+      "vendor/bin/hw/android.hardware.health@2.1-service",
+      "vendor/bin/hw/android.hardware.media.omx@1.0-service",
+      "vendor/bin/hw/android.hardware.memtrack-service.pixel",
+      "vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-armnn",
+      "vendor/bin/hw/android.hardware.nfc@1.2-service.st",
+      "vendor/bin/hw/android.hardware.power-service.pixel-libperfmgr",
+      "vendor/bin/hw/android.hardware.power.stats-service.pixel",
+      "vendor/bin/hw/android.hardware.secure_element@1.2-service-gto",
+      "vendor/bin/hw/android.hardware.security.keymint-service.trusty",
+      "vendor/bin/hw/android.hardware.sensors@2.1-service.multihal",
+      "vendor/bin/hw/android.hardware.thermal@2.0-service.pixel",
+      "vendor/bin/hw/android.hardware.usb@1.3-service.gs101",
+      "vendor/bin/hw/android.hardware.vibrator-service.cs40l25",
+      "vendor/bin/hw/android.hardware.wifi@1.0-service",
+      "vendor/bin/hw/disable_contaminant_detection.sh",
+      "vendor/bin/hw/gpsd",
+      "vendor/bin/hw/hostapd",
+      "vendor/bin/hw/lhd",
+      "vendor/bin/hw/scd",
+      "vendor/bin/hw/set_usb_irq.sh",
+      "vendor/bin/hw/wpa_supplicant",
+      "vendor/bin/hwclock",
+      "vendor/bin/i2cdetect",
+      "vendor/bin/i2cdump",
+      "vendor/bin/i2cget",
+      "vendor/bin/i2cset",
+      "vendor/bin/iconv",
+      "vendor/bin/id",
+      "vendor/bin/ifconfig",
+      "vendor/bin/init.insmod.sh",
+      "vendor/bin/inotifyd",
+      "vendor/bin/insmod",
+      "vendor/bin/install",
+      "vendor/bin/ionice",
+      "vendor/bin/iorenice",
+      "vendor/bin/kill",
+      "vendor/bin/killall",
+      "vendor/bin/ln",
+      "vendor/bin/load_policy",
+      "vendor/bin/log",
+      "vendor/bin/logname",
+      "vendor/bin/logwrapper",
+      "vendor/bin/losetup",
+      "vendor/bin/ls",
+      "vendor/bin/lsattr",
+      "vendor/bin/lsmod",
+      "vendor/bin/lsof",
+      "vendor/bin/lspci",
+      "vendor/bin/lsusb",
+      "vendor/bin/md5sum",
+      "vendor/bin/microcom",
+      "vendor/bin/misc_writer",
+      "vendor/bin/mkdir",
+      "vendor/bin/mkfifo",
+      "vendor/bin/mknod",
+      "vendor/bin/mkswap",
+      "vendor/bin/mktemp",
+      "vendor/bin/modinfo",
+      "vendor/bin/modprobe",
+      "vendor/bin/more",
+      "vendor/bin/mount",
+      "vendor/bin/mountpoint",
+      "vendor/bin/mv",
+      "vendor/bin/nc",
+      "vendor/bin/netcat",
+      "vendor/bin/netstat",
+      "vendor/bin/nice",
+      "vendor/bin/nl",
+      "vendor/bin/nohup",
+      "vendor/bin/nproc",
+      "vendor/bin/nsenter",
+      "vendor/bin/od",
+      "vendor/bin/paste",
+      "vendor/bin/patch",
+      "vendor/bin/pgrep",
+      "vendor/bin/pidof",
+      "vendor/bin/pixelstats-vendor",
+      "vendor/bin/pkill",
+      "vendor/bin/pmap",
+      "vendor/bin/printenv",
+      "vendor/bin/printf",
+      "vendor/bin/ps",
+      "vendor/bin/pwd",
+      "vendor/bin/readelf",
+      "vendor/bin/readlink",
+      "vendor/bin/realpath",
+      "vendor/bin/rebalance_interrupts-vendor",
+      "vendor/bin/renice",
+      "vendor/bin/restorecon",
+      "vendor/bin/rm",
+      "vendor/bin/rmdir",
+      "vendor/bin/rmmod",
+      "vendor/bin/rtcwake",
+      "vendor/bin/runcon",
+      "vendor/bin/sed",
+      "vendor/bin/sendevent",
+      "vendor/bin/seq",
+      "vendor/bin/setenforce",
+      "vendor/bin/setprop",
+      "vendor/bin/setsid",
+      "vendor/bin/sh",
+      "vendor/bin/sha1sum",
+      "vendor/bin/sha224sum",
+      "vendor/bin/sha256sum",
+      "vendor/bin/sha384sum",
+      "vendor/bin/sha512sum",
+      "vendor/bin/sleep",
+      "vendor/bin/sort",
+      "vendor/bin/split",
+      "vendor/bin/start",
+      "vendor/bin/stat",
+      "vendor/bin/stop",
+      "vendor/bin/storageproxyd",
+      "vendor/bin/strings",
+      "vendor/bin/stty",
+      "vendor/bin/swapoff",
+      "vendor/bin/swapon",
+      "vendor/bin/sync",
+      "vendor/bin/sysctl",
+      "vendor/bin/tac",
+      "vendor/bin/tail",
+      "vendor/bin/tar",
+      "vendor/bin/taskset",
+      "vendor/bin/tee",
+      "vendor/bin/test",
+      "vendor/bin/thermal_symlinks",
+      "vendor/bin/time",
+      "vendor/bin/timeout",
+      "vendor/bin/toolbox",
+      "vendor/bin/top",
+      "vendor/bin/touch",
+      "vendor/bin/toybox_vendor",
+      "vendor/bin/tr",
+      "vendor/bin/true",
+      "vendor/bin/truncate",
+      "vendor/bin/trusty_apploader",
+      "vendor/bin/tty",
+      "vendor/bin/ulimit",
+      "vendor/bin/umount",
+      "vendor/bin/uname",
+      "vendor/bin/uniq",
+      "vendor/bin/unix2dos",
+      "vendor/bin/unlink",
+      "vendor/bin/unshare",
+      "vendor/bin/uptime",
+      "vendor/bin/usleep",
+      "vendor/bin/uudecode",
+      "vendor/bin/uuencode",
+      "vendor/bin/uuidgen",
+      "vendor/bin/vmstat",
+      "vendor/bin/vndservice",
+      "vendor/bin/vndservicemanager",
+      "vendor/bin/watch",
+      "vendor/bin/wc",
+      "vendor/bin/which",
+      "vendor/bin/whoami",
+      "vendor/bin/xargs",
+      "vendor/bin/xxd",
+      "vendor/bin/yes",
+      "vendor/bin/zcat",
       "vendor/build.prop",
+      "vendor/etc/a2dp_audio_policy_configuration_7_0.xml",
+      "vendor/etc/a2dp_in_audio_policy_configuration_7_0.xml",
+      "vendor/etc/aoc/BLUETOOTH.dat",
+      "vendor/etc/aoc/HANDSET.dat",
+      "vendor/etc/aoc/HANDSFREE.dat",
+      "vendor/etc/aoc/HEADSET.dat",
+      "vendor/etc/aoc/recording.gatf",
+      "vendor/etc/audio_effects.xml",
+      "vendor/etc/audio_platform_configuration.xml",
+      "vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml",
+      "vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml",
+      "vendor/etc/audio_policy_configuration.xml",
+      "vendor/etc/audio_policy_volumes.xml",
+      "vendor/etc/bluetooth_audio_policy_configuration_7_0.xml",
+      "vendor/etc/bluetooth_power_limits_G9S9B_EU.csv",
+      "vendor/etc/bluetooth_power_limits_G9S9B_US.csv",
+      "vendor/etc/bluetooth_power_limits_GB7N6_EU.csv",
+      "vendor/etc/bluetooth_power_limits_GB7N6_US.csv",
+      "vendor/etc/bluetooth_power_limits_JP.csv",
+      "vendor/etc/bluetooth_power_limits.csv",
+      "vendor/etc/default_volume_tables.xml",
+      "vendor/etc/display_colordata_cal0.pb",
+      "vendor/etc/display_colordata_dev_cal0.pb",
+      "vendor/etc/display_golden_cal0.pb",
+      "vendor/etc/fs_config_dirs",
+      "vendor/etc/fs_config_files",
+      "vendor/etc/fstab.gs101",
+      "vendor/etc/fstab.persist",
+      "vendor/etc/gnss/gps.cer",
+      "vendor/etc/gnss/gps.xml",
+      "vendor/etc/gnss/lhd.conf",
+      "vendor/etc/gnss/scd.conf",
+      "vendor/etc/group",
+      "vendor/etc/hearing_aid_audio_policy_configuration_7_0.xml",
+      "vendor/etc/init.insmod.gs101.cfg",
+      "vendor/etc/init.insmod.oriole.cfg",
+      "vendor/etc/init/android.hardware.atrace@1.0-service.pixel.rc",
+      "vendor/etc/init/android.hardware.audio.service.rc",
+      "vendor/etc/init/android.hardware.boot@1.2-service-gs101.rc",
+      "vendor/etc/init/android.hardware.cas@1.2-service.rc",
+      "vendor/etc/init/android.hardware.contexthub@1.2-service-generic.rc",
+      "vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc",
+      "vendor/etc/init/android.hardware.dumpstate@1.1-service.gs101.rc",
+      "vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc",
+      "vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc",
+      "vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc",
+      "vendor/etc/init/android.hardware.health@2.1-service.rc",
+      "vendor/etc/init/android.hardware.media.omx@1.0-service.rc",
+      "vendor/etc/init/android.hardware.neuralnetworks@1.3-service-armnn.rc",
+      "vendor/etc/init/android.hardware.nfc@1.2-service.st.rc",
+      "vendor/etc/init/android.hardware.power-service.pixel-libperfmgr.rc",
+      "vendor/etc/init/android.hardware.power.stats-service.pixel.rc",
+      "vendor/etc/init/android.hardware.secure_element@1.2-service-gto.rc",
+      "vendor/etc/init/android.hardware.security.keymint-service.trusty.rc",
+      "vendor/etc/init/android.hardware.sensors@2.1-service-multihal.rc",
+      "vendor/etc/init/android.hardware.thermal@2.0-service.pixel.rc",
+      "vendor/etc/init/android.hardware.usb@1.3-service.gs101.rc",
+      "vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc",
+      "vendor/etc/init/android.hardware.wifi@1.0-service.rc",
+      "vendor/etc/init/boringssl_self_test.rc",
+      "vendor/etc/init/health-storage-default.rc",
+      "vendor/etc/init/hostapd.android.rc",
+      "vendor/etc/init/hw/init.aoc.rc",
+      "vendor/etc/init/hw/init.gs101.rc",
+      "vendor/etc/init/hw/init.gs101.usb.rc",
+      "vendor/etc/init/hw/init.oriole.rc",
+      "vendor/etc/init/hw/init.raviole.rc",
+      "vendor/etc/init/init.pixel.rc",
+      "vendor/etc/init/memtrack.rc",
+      "vendor/etc/init/pixel-mm-gki.rc",
+      "vendor/etc/init/pixel-thermal-symlinks.rc",
+      "vendor/etc/init/pixelstats-vendor.gs101.rc",
+      "vendor/etc/init/rebalance_interrupts-vendor.gs101.rc",
+      "vendor/etc/init/vendor_flash_recovery.rc",
+      "vendor/etc/init/vndservicemanager.rc",
+      "vendor/etc/libnfc-hal-st.conf",
+      "vendor/etc/libse-gto-hal.conf",
+      "vendor/etc/libse-gto-hal2.conf",
+      "vendor/etc/media_codecs_c2.xml",
+      "vendor/etc/media_codecs_performance_c2.xml",
+      "vendor/etc/media_codecs_performance.xml",
+      "vendor/etc/media_codecs.xml",
+      "vendor/etc/media_profiles_V1_0.xml",
+      "vendor/etc/mixer_paths.xml",
+      "vendor/etc/mkshrc",
+      "vendor/etc/modem/camera_front_mipi_coex_table.csv",
+      "vendor/etc/modem/camera_rear_wide_mipi_coex_table.csv",
+      "vendor/etc/modem/display_primary_mipi_coex_table.csv",
+      "vendor/etc/modem/gnss_blanking.csv",
+      "vendor/etc/NOTICE.xml.gz",
+      "vendor/etc/passwd",
+      "vendor/etc/permissions/android.hardware.audio.low_latency.xml",
+      "vendor/etc/permissions/android.hardware.audio.pro.xml",
+      "vendor/etc/permissions/android.hardware.bluetooth_le.xml",
+      "vendor/etc/permissions/android.hardware.bluetooth.xml",
+      "vendor/etc/permissions/android.hardware.camera.concurrent.xml",
+      "vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml",
+      "vendor/etc/permissions/android.hardware.camera.front.xml",
+      "vendor/etc/permissions/android.hardware.camera.full.xml",
+      "vendor/etc/permissions/android.hardware.camera.raw.xml",
+      "vendor/etc/permissions/android.hardware.context_hub.xml",
+      "vendor/etc/permissions/android.hardware.device_unique_attestation.xml",
+      "vendor/etc/permissions/android.hardware.fingerprint.xml",
+      "vendor/etc/permissions/android.hardware.hardware_keystore.xml",
+      "vendor/etc/permissions/android.hardware.location.gps.xml",
+      "vendor/etc/permissions/android.hardware.nfc.ese.xml",
+      "vendor/etc/permissions/android.hardware.nfc.hce.xml",
+      "vendor/etc/permissions/android.hardware.nfc.hcef.xml",
+      "vendor/etc/permissions/android.hardware.nfc.uicc.xml",
+      "vendor/etc/permissions/android.hardware.nfc.xml",
+      "vendor/etc/permissions/android.hardware.opengles.aep.xml",
+      "vendor/etc/permissions/android.hardware.se.omapi.ese.xml",
+      "vendor/etc/permissions/android.hardware.se.omapi.uicc.xml",
+      "vendor/etc/permissions/android.hardware.sensor.accelerometer.xml",
+      "vendor/etc/permissions/android.hardware.sensor.barometer.xml",
+      "vendor/etc/permissions/android.hardware.sensor.compass.xml",
+      "vendor/etc/permissions/android.hardware.sensor.gyroscope.xml",
+      "vendor/etc/permissions/android.hardware.sensor.hifi_sensors.xml",
+      "vendor/etc/permissions/android.hardware.sensor.light.xml",
+      "vendor/etc/permissions/android.hardware.sensor.proximity.xml",
+      "vendor/etc/permissions/android.hardware.sensor.stepcounter.xml",
+      "vendor/etc/permissions/android.hardware.sensor.stepdetector.xml",
+      "vendor/etc/permissions/android.hardware.strongbox_keystore.xml",
+      "vendor/etc/permissions/android.hardware.telephony.carrierlock.xml",
+      "vendor/etc/permissions/android.hardware.telephony.cdma.xml",
+      "vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml",
+      "vendor/etc/permissions/android.hardware.usb.accessory.xml",
+      "vendor/etc/permissions/android.hardware.usb.host.xml",
+      "vendor/etc/permissions/android.hardware.vulkan.compute.xml",
+      "vendor/etc/permissions/android.hardware.vulkan.level.xml",
+      "vendor/etc/permissions/android.hardware.vulkan.version.xml",
+      "vendor/etc/permissions/android.hardware.wifi.aware.xml",
+      "vendor/etc/permissions/android.hardware.wifi.direct.xml",
+      "vendor/etc/permissions/android.hardware.wifi.passpoint.xml",
+      "vendor/etc/permissions/android.hardware.wifi.rtt.xml",
+      "vendor/etc/permissions/android.hardware.wifi.xml",
+      "vendor/etc/permissions/android.software.device_id_attestation.xml",
+      "vendor/etc/permissions/android.software.ipsec_tunnels.xml",
+      "vendor/etc/permissions/android.software.midi.xml",
+      "vendor/etc/permissions/android.software.opengles.deqp.level.xml",
+      "vendor/etc/permissions/android.software.verified_boot.xml",
+      "vendor/etc/permissions/android.software.vulkan.deqp.level.xml",
+      "vendor/etc/permissions/com.nxp.mifare.xml",
+      "vendor/etc/permissions/handheld_core_hardware.xml",
+      "vendor/etc/powerhint_a0.json",
+      "vendor/etc/powerhint_a1.json",
+      "vendor/etc/powerhint.json",
+      "vendor/etc/r_submix_audio_policy_configuration.xml",
       "vendor/etc/selinux/plat_pub_versioned.cil",
       "vendor/etc/selinux/plat_sepolicy_vers.txt",
       "vendor/etc/selinux/precompiled_sepolicy",
@@ -2243,7 +2623,359 @@
       "vendor/etc/selinux/vendor_sepolicy.cil",
       "vendor/etc/selinux/vendor_service_contexts",
       "vendor/etc/selinux/vndservice_contexts",
-      "vendor/odm/etc/build.prop"
+      "vendor/etc/sound_trigger_configuration.xml",
+      "vendor/etc/sysconfig/component-overrides.xml",
+      "vendor/etc/task_profiles.json",
+      "vendor/etc/thermal_info_config_WHI_A.json",
+      "vendor/etc/thermal_info_config.json",
+      "vendor/etc/usb_audio_policy_configuration.xml",
+      "vendor/etc/vintf/compatibility_matrix.xml",
+      "vendor/etc/vintf/manifest.xml",
+      "vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.pixel.xml",
+      "vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",
+      "vendor/etc/vintf/manifest/android.hardware.contexthub@1.2-generic.xml",
+      "vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml",
+      "vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-brcm.xml",
+      "vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
+      "vendor/etc/vintf/manifest/android.hardware.power-service.pixel.xml",
+      "vendor/etc/vintf/manifest/android.hardware.power.stats-service.pixel.xml",
+      "vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trusty.xml",
+      "vendor/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml",
+      "vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.pixel.xml",
+      "vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.2-service.gs101.xml",
+      "vendor/etc/vintf/manifest/android.hardware.usb@1.3-service.gs101.xml",
+      "vendor/etc/vintf/manifest/android.hardware.vibrator-service.cs40l25.xml",
+      "vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
+      "vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
+      "vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+      "vendor/etc/vintf/manifest/health-storage-default.xml",
+      "vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
+      "vendor/etc/vintf/manifest/memtrack.xml",
+      "vendor/etc/vintf/manifest/pixel-display-default.xml",
+      "vendor/etc/waves_config.ini",
+      "vendor/etc/waves_preset.mps",
+      "vendor/etc/wifi/coex_table.xml",
+      "vendor/etc/wifi/p2p_supplicant.conf",
+      "vendor/etc/wifi/wpa_supplicant_overlay.conf",
+      "vendor/etc/wifi/wpa_supplicant.conf",
+      "vendor/firmware/cs35l41-dsp1-spk-cali.bin",
+      "vendor/firmware/cs35l41-dsp1-spk-cali.wmfw",
+      "vendor/firmware/cs35l41-dsp1-spk-diag.bin",
+      "vendor/firmware/cs35l41-dsp1-spk-diag.wmfw",
+      "vendor/firmware/cs35l41-dsp1-spk-prot.bin",
+      "vendor/firmware/cs35l41-dsp1-spk-prot.wmfw",
+      "vendor/firmware/mfc_fw.bin",
+      "vendor/firmware/R-cs35l41-dsp1-spk-cali.bin",
+      "vendor/firmware/R-cs35l41-dsp1-spk-diag.bin",
+      "vendor/firmware/R-cs35l41-dsp1-spk-prot.bin",
+      "vendor/firmware/readme.md",
+      "vendor/firmware/SensorHub.patch",
+      "vendor/lib/android.frameworks.stats-V1-ndk_platform.so",
+      "vendor/lib/android.hardware.audio.common-util.so",
+      "vendor/lib/android.hardware.audio.common@5.0.so",
+      "vendor/lib/android.hardware.audio.common@7.0-enums.so",
+      "vendor/lib/android.hardware.audio.common@7.0-util.so",
+      "vendor/lib/android.hardware.audio.common@7.0.so",
+      "vendor/lib/android.hardware.audio.effect@7.0-util.so",
+      "vendor/lib/android.hardware.audio.effect@7.0.so",
+      "vendor/lib/android.hardware.audio@7.0-util.so",
+      "vendor/lib/android.hardware.audio@7.0.so",
+      "vendor/lib/android.hardware.bluetooth.audio@2.0.so",
+      "vendor/lib/android.hardware.bluetooth.audio@2.1.so",
+      "vendor/lib/android.hardware.cas.native@1.0.so",
+      "vendor/lib/android.hardware.cas@1.0.so",
+      "vendor/lib/android.hardware.cas@1.1.so",
+      "vendor/lib/android.hardware.cas@1.2.so",
+      "vendor/lib/android.hardware.graphics.composer@2.1.so",
+      "vendor/lib/android.hardware.graphics.composer@2.2.so",
+      "vendor/lib/android.hardware.graphics.composer@2.3.so",
+      "vendor/lib/android.hardware.graphics.composer@2.4.so",
+      "vendor/lib/android.hardware.health@1.0.so",
+      "vendor/lib/android.hardware.health@2.0.so",
+      "vendor/lib/android.hardware.health@2.1.so",
+      "vendor/lib/android.hardware.power-V1-ndk_platform.so",
+      "vendor/lib/android.hardware.radio@1.0.so",
+      "vendor/lib/android.hardware.radio@1.1.so",
+      "vendor/lib/android.hardware.soundtrigger@2.1.so",
+      "vendor/lib/android.hardware.soundtrigger@2.2.so",
+      "vendor/lib/android.hardware.soundtrigger@2.3.so",
+      "vendor/lib/android.hidl.allocator@1.0.so",
+      "vendor/lib/arm.graphics-V1-ndk_platform.so",
+      "vendor/lib/com.google.hardware.pixel.display-V3-ndk_platform.so",
+      "vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so",
+      "vendor/lib/hw/android.hardware.audio@7.0-impl.so",
+      "vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so",
+      "vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl.so",
+      "vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl.so",
+      "vendor/lib/hw/android.hardware.health@2.0-impl-2.1-gs101.so",
+      "vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so",
+      "vendor/lib/hw/audio.bluetooth.default.so",
+      "vendor/lib/hw/audio.primary.default.so",
+      "vendor/lib/hw/audio.r_submix.default.so",
+      "vendor/lib/hw/audio.usb.default.so",
+      "vendor/lib/hw/audio.usbv2.default.so",
+      "vendor/lib/hw/gralloc.default.so",
+      "vendor/lib/hw/hwcomposer.gs101.so",
+      "vendor/lib/hw/local_time.default.so",
+      "vendor/lib/hw/power.default.so",
+      "vendor/lib/hw/vibrator.default.so",
+      "vendor/lib/libacryl_hdr_plugin.so",
+      "vendor/lib/libacryl.so",
+      "vendor/lib/libalsautils.so",
+      "vendor/lib/libalsautilsv2.so",
+      "vendor/lib/libavservices_minijail.so",
+      "vendor/lib/libbluetooth_audio_session.so",
+      "vendor/lib/libdrm.so",
+      "vendor/lib/libdrmresource.so",
+      "vendor/lib/libeffects.so",
+      "vendor/lib/libeffectsconfig.so",
+      "vendor/lib/libexynosdisplay.so",
+      "vendor/lib/libExynosHWCService.so",
+      "vendor/lib/libhwjpeg.so",
+      "vendor/lib/libion_google.so",
+      "vendor/lib/libnbaio_mono.so",
+      "vendor/lib/libopus.so",
+      "vendor/lib/libpixelhealth.so",
+      "vendor/lib/libprotobuf-cpp-full-3.9.1.so",
+      "vendor/lib/libprotobuf-cpp-lite-3.9.1.so",
+      "vendor/lib/libreference-ril.so",
+      "vendor/lib/libril.so",
+      "vendor/lib/librilutils.so",
+      "vendor/lib/libstagefright_amrnb_common.so",
+      "vendor/lib/libstagefright_enc_common.so",
+      "vendor/lib/libstagefright_flacdec.so",
+      "vendor/lib/libstagefright_soft_aacdec.so",
+      "vendor/lib/libstagefright_soft_aacenc.so",
+      "vendor/lib/libstagefright_soft_amrdec.so",
+      "vendor/lib/libstagefright_soft_amrnbenc.so",
+      "vendor/lib/libstagefright_soft_amrwbenc.so",
+      "vendor/lib/libstagefright_soft_avcdec.so",
+      "vendor/lib/libstagefright_soft_avcenc.so",
+      "vendor/lib/libstagefright_soft_flacdec.so",
+      "vendor/lib/libstagefright_soft_flacenc.so",
+      "vendor/lib/libstagefright_soft_g711dec.so",
+      "vendor/lib/libstagefright_soft_gsmdec.so",
+      "vendor/lib/libstagefright_soft_hevcdec.so",
+      "vendor/lib/libstagefright_soft_mp3dec.so",
+      "vendor/lib/libstagefright_soft_mpeg2dec.so",
+      "vendor/lib/libstagefright_soft_mpeg4dec.so",
+      "vendor/lib/libstagefright_soft_mpeg4enc.so",
+      "vendor/lib/libstagefright_soft_opusdec.so",
+      "vendor/lib/libstagefright_soft_rawdec.so",
+      "vendor/lib/libstagefright_soft_vorbisdec.so",
+      "vendor/lib/libstagefright_soft_vpxdec.so",
+      "vendor/lib/libstagefright_soft_vpxenc.so",
+      "vendor/lib/libstagefright_softomx_plugin.so",
+      "vendor/lib/libstagefright_softomx.so",
+      "vendor/lib/libtinyalsav2.so",
+      "vendor/lib/libvendorgraphicbuffer.so",
+      "vendor/lib/libvibrator.so",
+      "vendor/lib/libvorbisidec.so",
+      "vendor/lib/libvpx.so",
+      "vendor/lib/libwpa_client.so",
+      "vendor/lib/mediacas/libclearkeycasplugin.so",
+      "vendor/lib/mediadrm/libdrmclearkeyplugin.so",
+      "vendor/lib/pixel-power-ext-V1-ndk_platform.so",
+      "vendor/lib/pixelatoms-cpp.so",
+      "vendor/lib/soundfx/libaudiopreprocessing.so",
+      "vendor/lib/soundfx/libbundlewrapper.so",
+      "vendor/lib/soundfx/libdownmix.so",
+      "vendor/lib/soundfx/libdynproc.so",
+      "vendor/lib/soundfx/libeffectproxy.so",
+      "vendor/lib/soundfx/libhapticgenerator.so",
+      "vendor/lib/soundfx/libldnhncr.so",
+      "vendor/lib/soundfx/libreverbwrapper.so",
+      "vendor/lib/soundfx/libvisualizer.so",
+      "vendor/lib64/android.frameworks.sensorservice@1.0.so",
+      "vendor/lib64/android.frameworks.stats-V1-ndk_platform.so",
+      "vendor/lib64/android.hardware.atrace@1.0.so",
+      "vendor/lib64/android.hardware.audio.common-util.so",
+      "vendor/lib64/android.hardware.audio.common@5.0.so",
+      "vendor/lib64/android.hardware.audio.common@7.0-enums.so",
+      "vendor/lib64/android.hardware.audio.common@7.0-util.so",
+      "vendor/lib64/android.hardware.audio.common@7.0.so",
+      "vendor/lib64/android.hardware.audio.effect@7.0-util.so",
+      "vendor/lib64/android.hardware.audio.effect@7.0.so",
+      "vendor/lib64/android.hardware.audio@7.0-util.so",
+      "vendor/lib64/android.hardware.audio@7.0.so",
+      "vendor/lib64/android.hardware.bluetooth.audio@2.0.so",
+      "vendor/lib64/android.hardware.bluetooth.audio@2.1.so",
+      "vendor/lib64/android.hardware.boot@1.0.so",
+      "vendor/lib64/android.hardware.boot@1.1.so",
+      "vendor/lib64/android.hardware.boot@1.2.so",
+      "vendor/lib64/android.hardware.contexthub@1.0.so",
+      "vendor/lib64/android.hardware.contexthub@1.1.so",
+      "vendor/lib64/android.hardware.contexthub@1.2.so",
+      "vendor/lib64/android.hardware.drm@1.0.so",
+      "vendor/lib64/android.hardware.drm@1.1.so",
+      "vendor/lib64/android.hardware.drm@1.2.so",
+      "vendor/lib64/android.hardware.drm@1.3.so",
+      "vendor/lib64/android.hardware.drm@1.4.so",
+      "vendor/lib64/android.hardware.dumpstate@1.0.so",
+      "vendor/lib64/android.hardware.dumpstate@1.1.so",
+      "vendor/lib64/android.hardware.gatekeeper@1.0.so",
+      "vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so",
+      "vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so",
+      "vendor/lib64/android.hardware.gnss.visibility_control@1.0.so",
+      "vendor/lib64/android.hardware.gnss@1.0.so",
+      "vendor/lib64/android.hardware.gnss@1.1.so",
+      "vendor/lib64/android.hardware.gnss@2.0.so",
+      "vendor/lib64/android.hardware.gnss@2.1.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.1-resources.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.1.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.2-resources.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.2.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.3.so",
+      "vendor/lib64/android.hardware.graphics.composer@2.4.so",
+      "vendor/lib64/android.hardware.health@1.0.so",
+      "vendor/lib64/android.hardware.health@2.0.so",
+      "vendor/lib64/android.hardware.health@2.1.so",
+      "vendor/lib64/android.hardware.neuralnetworks@1.0.so",
+      "vendor/lib64/android.hardware.neuralnetworks@1.1.so",
+      "vendor/lib64/android.hardware.neuralnetworks@1.2.so",
+      "vendor/lib64/android.hardware.neuralnetworks@1.3.so",
+      "vendor/lib64/android.hardware.nfc@1.0.so",
+      "vendor/lib64/android.hardware.nfc@1.1.so",
+      "vendor/lib64/android.hardware.nfc@1.2.so",
+      "vendor/lib64/android.hardware.power-V1-ndk_platform.so",
+      "vendor/lib64/android.hardware.power.stats-impl.gs101.so",
+      "vendor/lib64/android.hardware.power.stats-impl.pixel.so",
+      "vendor/lib64/android.hardware.radio@1.0.so",
+      "vendor/lib64/android.hardware.radio@1.1.so",
+      "vendor/lib64/android.hardware.secure_element@1.0-impl-gto.so",
+      "vendor/lib64/android.hardware.secure_element@1.0.so",
+      "vendor/lib64/android.hardware.secure_element@1.1-impl-gto.so",
+      "vendor/lib64/android.hardware.secure_element@1.1.so",
+      "vendor/lib64/android.hardware.secure_element@1.2-impl-gto.so",
+      "vendor/lib64/android.hardware.secure_element@1.2.so",
+      "vendor/lib64/android.hardware.sensors@1.0.so",
+      "vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so",
+      "vendor/lib64/android.hardware.sensors@2.0.so",
+      "vendor/lib64/android.hardware.sensors@2.1.so",
+      "vendor/lib64/android.hardware.soundtrigger@2.1.so",
+      "vendor/lib64/android.hardware.soundtrigger@2.2.so",
+      "vendor/lib64/android.hardware.soundtrigger@2.3.so",
+      "vendor/lib64/android.hardware.thermal@1.0.so",
+      "vendor/lib64/android.hardware.thermal@2.0.so",
+      "vendor/lib64/android.hardware.usb.gadget@1.0.so",
+      "vendor/lib64/android.hardware.usb.gadget@1.1.so",
+      "vendor/lib64/android.hardware.usb.gadget@1.2.so",
+      "vendor/lib64/android.hardware.usb@1.0.so",
+      "vendor/lib64/android.hardware.usb@1.1.so",
+      "vendor/lib64/android.hardware.usb@1.2.so",
+      "vendor/lib64/android.hardware.usb@1.3.so",
+      "vendor/lib64/android.hardware.wifi.hostapd@1.0.so",
+      "vendor/lib64/android.hardware.wifi.hostapd@1.1.so",
+      "vendor/lib64/android.hardware.wifi.hostapd@1.2.so",
+      "vendor/lib64/android.hardware.wifi.hostapd@1.3.so",
+      "vendor/lib64/android.hardware.wifi.supplicant@1.0.so",
+      "vendor/lib64/android.hardware.wifi.supplicant@1.1.so",
+      "vendor/lib64/android.hardware.wifi.supplicant@1.2.so",
+      "vendor/lib64/android.hardware.wifi.supplicant@1.3.so",
+      "vendor/lib64/android.hardware.wifi.supplicant@1.4.so",
+      "vendor/lib64/android.hardware.wifi@1.0.so",
+      "vendor/lib64/android.hardware.wifi@1.1.so",
+      "vendor/lib64/android.hardware.wifi@1.2.so",
+      "vendor/lib64/android.hardware.wifi@1.3.so",
+      "vendor/lib64/android.hardware.wifi@1.4.so",
+      "vendor/lib64/android.hardware.wifi@1.5.so",
+      "vendor/lib64/android.hidl.allocator@1.0.so",
+      "vendor/lib64/android.system.wifi.keystore@1.0.so",
+      "vendor/lib64/arm.graphics-V1-ndk_platform.so",
+      "vendor/lib64/com.google.hardware.pixel.display-V3-ndk_platform.so",
+      "vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so",
+      "vendor/lib64/hw/android.hardware.audio@7.0-impl.so",
+      "vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so",
+      "vendor/lib64/hw/android.hardware.gnss@2.1-impl-google.so",
+      "vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so",
+      "vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl.so",
+      "vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-gs101.so",
+      "vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so",
+      "vendor/lib64/hw/android.hardware.vibrator-impl.cs40l25.so",
+      "vendor/lib64/hw/audio.bluetooth.default.so",
+      "vendor/lib64/hw/audio.primary.default.so",
+      "vendor/lib64/hw/audio.r_submix.default.so",
+      "vendor/lib64/hw/audio.usb.default.so",
+      "vendor/lib64/hw/audio.usbv2.default.so",
+      "vendor/lib64/hw/flp.default.so",
+      "vendor/lib64/hw/gps.default.so",
+      "vendor/lib64/hw/gralloc.default.so",
+      "vendor/lib64/hw/hwcomposer.gs101.so",
+      "vendor/lib64/hw/local_time.default.so",
+      "vendor/lib64/hw/power.default.so",
+      "vendor/lib64/hw/vibrator.default.so",
+      "vendor/lib64/lib_android_keymaster_keymint_utils.so",
+      "vendor/lib64/libacryl_hdr_plugin.so",
+      "vendor/lib64/libacryl.so",
+      "vendor/lib64/libalsautils.so",
+      "vendor/lib64/libalsautilsv2.so",
+      "vendor/lib64/libbinderdebug.so",
+      "vendor/lib64/libbluetooth_audio_session.so",
+      "vendor/lib64/libcppbor_external.so",
+      "vendor/lib64/libcppcose_rkp.so",
+      "vendor/lib64/libdisppower-pixel.so",
+      "vendor/lib64/libdrm.so",
+      "vendor/lib64/libdrmresource.so",
+      "vendor/lib64/libeffects.so",
+      "vendor/lib64/libeffectsconfig.so",
+      "vendor/lib64/libexynosdisplay.so",
+      "vendor/lib64/libExynosHWCService.so",
+      "vendor/lib64/libhidltransport.so",
+      "vendor/lib64/libhwbinder.so",
+      "vendor/lib64/libhwc2on1adapter.so",
+      "vendor/lib64/libhwc2onfbadapter.so",
+      "vendor/lib64/libhwjpeg.so",
+      "vendor/lib64/libion_google.so",
+      "vendor/lib64/libkeymaster_messages.so",
+      "vendor/lib64/libkeymaster_portable.so",
+      "vendor/lib64/libkeymint.so",
+      "vendor/lib64/libkeystore-engine-wifi-hidl.so",
+      "vendor/lib64/libkeystore-wifi-hidl.so",
+      "vendor/lib64/libmemtrack-pixel.so",
+      "vendor/lib64/libnbaio_mono.so",
+      "vendor/lib64/libperfmgr.so",
+      "vendor/lib64/libpixelhealth.so",
+      "vendor/lib64/libpixelstats.so",
+      "vendor/lib64/libprotobuf-cpp-full-3.9.1.so",
+      "vendor/lib64/libprotobuf-cpp-lite-3.9.1.so",
+      "vendor/lib64/libpuresoftkeymasterdevice.so",
+      "vendor/lib64/libreference-ril.so",
+      "vendor/lib64/libril.so",
+      "vendor/lib64/librilutils.so",
+      "vendor/lib64/libsensorndkbridge.so",
+      "vendor/lib64/libsoft_attestation_cert.so",
+      "vendor/lib64/libtextclassifier_hash.so",
+      "vendor/lib64/libtinyalsav2.so",
+      "vendor/lib64/libtrusty.so",
+      "vendor/lib64/libvendorgraphicbuffer.so",
+      "vendor/lib64/libvibrator.so",
+      "vendor/lib64/libwifi-hal.so",
+      "vendor/lib64/libwpa_client.so",
+      "vendor/lib64/libz_stable.so",
+      "vendor/lib64/mediacas/libclearkeycasplugin.so",
+      "vendor/lib64/mediadrm/libdrmclearkeyplugin.so",
+      "vendor/lib64/nfc_nci.st21nfc.default.so",
+      "vendor/lib64/pixel_stateresidency_provider_aidl_interface-ndk_platform.so",
+      "vendor/lib64/pixel-power-ext-V1-ndk_platform.so",
+      "vendor/lib64/pixelatoms-cpp.so",
+      "vendor/lib64/soundfx/libaudiopreprocessing.so",
+      "vendor/lib64/soundfx/libbundlewrapper.so",
+      "vendor/lib64/soundfx/libdownmix.so",
+      "vendor/lib64/soundfx/libdynproc.so",
+      "vendor/lib64/soundfx/libeffectproxy.so",
+      "vendor/lib64/soundfx/libhapticgenerator.so",
+      "vendor/lib64/soundfx/libldnhncr.so",
+      "vendor/lib64/soundfx/libreverbwrapper.so",
+      "vendor/lib64/soundfx/libvisualizer.so",
+      "vendor/odm_dlkm/etc/build.prop",
+      "vendor/odm_dlkm/etc/NOTICE.xml.gz",
+      "vendor/odm/etc/build.prop",
+      "vendor/odm/etc/group",
+      "vendor/odm/etc/NOTICE.xml.gz",
+      "vendor/odm/etc/passwd",
+      "vendor/ueventd.rc",
+      "vendor/vendor_dlkm/etc/build.prop",
+      "vendor/vendor_dlkm/etc/NOTICE.xml.gz"
     ]
   },
   "partitionProps": {
@@ -2260,19 +2992,19 @@
           "ro.system.product.cpu.abilist": "arm64-v8a,armeabi-v7a,armeabi",
           "ro.system.product.cpu.abilist32": "armeabi-v7a,armeabi",
           "ro.system.product.cpu.abilist64": "arm64-v8a",
-          "ro.system.build.date": "Thu Nov 25 20:28:16 GMT 2021",
-          "ro.system.build.date.utc": "1637872096",
-          "ro.system.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11252028:user/test-keys",
+          "ro.system.build.date": "Fri Nov 26 13:54:13 GMT 2021",
+          "ro.system.build.date.utc": "1637934853",
+          "ro.system.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11261354:user/test-keys",
           "ro.system.build.id": "SD1A.210817.037",
           "ro.system.build.tags": "test-keys",
           "ro.system.build.type": "user",
-          "ro.system.build.version.incremental": "eng.user.20211125.203002",
+          "ro.system.build.version.incremental": "eng.user.20211126.135416",
           "ro.system.build.version.release": "12",
           "ro.system.build.version.release_or_codename": "12",
           "ro.system.build.version.sdk": "31",
           "ro.build.id": "SD1A.210817.037",
           "ro.build.display.id": "SD1A.210817.037 test-keys",
-          "ro.build.version.incremental": "eng.user.20211125.203002",
+          "ro.build.version.incremental": "eng.user.20211126.135416",
           "ro.build.version.sdk": "31",
           "ro.build.version.preview_sdk": "0",
           "ro.build.version.preview_sdk_fingerprint": "REL",
@@ -2283,8 +3015,8 @@
           "ro.build.version.security_patch": "2021-11-05",
           "ro.build.version.base_os": "",
           "ro.build.version.min_supported_target_sdk": "23",
-          "ro.build.date": "Thu Nov 25 20:28:16 GMT 2021",
-          "ro.build.date.utc": "1637872096",
+          "ro.build.date": "Fri Nov 26 13:54:13 GMT 2021",
+          "ro.build.date.utc": "1637934853",
           "ro.build.type": "user",
           "ro.build.user": "user",
           "ro.build.host": "linuxworkstation",
@@ -2295,68 +3027,7 @@
           "ro.product.locale": "en-US",
           "ro.wifi.channels": "",
           "ro.build.product": "oriole",
-          "ro.build.description": "aosp_oriole-user 12 SD1A.210817.037 eng.user.20211125.203002 test-keys",
-          "dev.usbsetting.embedded": "on",
-          "ro.telephony.default_network": "27",
-          "persist.vendor.ril.use.iccid_to_plmn": "1",
-          "persist.vendor.ril.emergencynumber.mode": "5",
-          "persist.vendor.ril.log_mask": "3",
-          "persist.vendor.ril.log.base_dir": "/data/vendor/radio/sit-ril",
-          "persist.vendor.ril.log.chunk_size": "5242880",
-          "persist.vendor.ril.log.num_file": "3",
-          "persist.vendor.radio.config.carrier_config_dir": "/mnt/vendor/modem_img/images/default/confpack",
-          "telephony.active_modems.max_count": "2",
-          "persist.vendor.verbose_logging_enabled": "false",
-          "ro.vendor.sys.modem.logging.loc": "/data/vendor/slog",
-          "persist.vendor.sys.silentlog.tcp": "On",
-          "ro.vendor.cbd.modem_removable": "1",
-          "ro.vendor.cbd.modem_type": "s5100sit",
-          "persist.vendor.sys.modem.logging.br_num": "5",
-          "persist.vendor.sys.modem.logging.enable": "true",
-          "persist.vendor.ril.crash_handling_mode": "2",
-          "persist.vendor.radio.multisim_switch_support": "true",
-          "aaudio.mmap_policy": "2",
-          "aaudio.mmap_exclusive_policy": "2",
-          "aaudio.hw_burst_min_usec": "2000",
-          "debug.slsi_platform": "1",
-          "debug.hwc.winupdate": "1",
-          "debug.sf.disable_backpressure": "0",
-          "debug.sf.enable_gl_backpressure": "1",
-          "persist.sys.sf.native_mode": "2",
-          "persist.sys.sf.color_mode": "9",
-          "ro.vendor.ddk.set.afbc": "1",
-          "debug.c2.use_dmabufheaps": "1",
-          "media.c2.dmabuf.padding": "512",
-          "debug.stagefright.ccodec_delayed_params": "1",
-          "ro.vendor.gpu.dataspace": "1",
-          "debug.stagefright.c2inputsurface": "-1",
-          "ro.hardware.keystore": "trusty",
-          "ro.hardware.gatekeeper": "trusty",
-          "ro.frp.pst": "/dev/block/by-name/frp",
-          "vendor.pktrouter": "1",
-          "ro.config.vc_call_vol_steps": "7",
-          "ro.config.media_vol_steps": "25",
-          "ro.audio.monitorRotation": "true",
-          "ro.audio.offload_wakelock": "false",
-          "persist.vendor.enable.thermal.genl": "true",
-          "framework_watchdog.fatal_window.second": "600",
-          "framework_watchdog.fatal_count": "3",
-          "zygote.critical_window.minute": "10",
-          "suspend.short_suspend_threshold_millis": "2000",
-          "suspend.short_suspend_backoff_enabled": "true",
-          "suspend.max_sleep_time_millis": "40000",
-          "renderthread.skia.reduceopstasksplitting": "true",
-          "ro.incremental.enable": "true",
-          "dalvik.vm.dex2oat64.enabled": "true",
-          "ro.zram.mark_idle_delay_mins": "60",
-          "ro.zram.first_wb_delay_mins": "1440",
-          "ro.zram.periodic_wb_delay_hours": "24",
-          "ro.lmk.filecache_min_kb": "153600",
-          "ro.bluetooth.a2dp_offload.supported": "true",
-          "persist.bluetooth.a2dp_offload.disabled": "false",
-          "persist.bluetooth.a2dp_offload.cap": "sbc-aac-aptx-aptxhd-ldac",
-          "ro.odm.build.media_performance_class": "31",
-          "ro.gms.dck.eligible_wcc": "2",
+          "ro.build.description": "aosp_oriole-user 12 SD1A.210817.037 eng.user.20211126.135416 test-keys",
           "ro.treble.enabled": "true",
           "ro.actionable_compatible_property.enabled": "true",
           "ro.postinstall.fstab.prefix": "/system",
@@ -2413,13 +3084,13 @@
           "ro.product.system_ext.manufacturer": "Google",
           "ro.product.system_ext.model": "AOSP on Oriole",
           "ro.product.system_ext.name": "aosp_oriole",
-          "ro.system_ext.build.date": "Thu Nov 25 20:28:16 GMT 2021",
-          "ro.system_ext.build.date.utc": "1637872096",
-          "ro.system_ext.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11252028:user/test-keys",
+          "ro.system_ext.build.date": "Fri Nov 26 13:54:13 GMT 2021",
+          "ro.system_ext.build.date.utc": "1637934853",
+          "ro.system_ext.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11261354:user/test-keys",
           "ro.system_ext.build.id": "SD1A.210817.037",
           "ro.system_ext.build.tags": "test-keys",
           "ro.system_ext.build.type": "user",
-          "ro.system_ext.build.version.incremental": "eng.user.20211125.203002",
+          "ro.system_ext.build.version.incremental": "eng.user.20211126.135416",
           "ro.system_ext.build.version.release": "12",
           "ro.system_ext.build.version.release_or_codename": "12",
           "ro.system_ext.build.version.sdk": "31",
@@ -2434,13 +3105,13 @@
           "ro.product.product.manufacturer": "Google",
           "ro.product.product.model": "AOSP on Oriole",
           "ro.product.product.name": "aosp_oriole",
-          "ro.product.build.date": "Thu Nov 25 20:28:16 GMT 2021",
-          "ro.product.build.date.utc": "1637872096",
-          "ro.product.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11252028:user/test-keys",
+          "ro.product.build.date": "Fri Nov 26 13:54:13 GMT 2021",
+          "ro.product.build.date.utc": "1637934853",
+          "ro.product.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11261354:user/test-keys",
           "ro.product.build.id": "SD1A.210817.037",
           "ro.product.build.tags": "test-keys",
           "ro.product.build.type": "user",
-          "ro.product.build.version.incremental": "eng.user.20211125.203002",
+          "ro.product.build.version.incremental": "eng.user.20211126.135416",
           "ro.product.build.version.release": "12",
           "ro.product.build.version.release_or_codename": "12",
           "ro.product.build.version.sdk": "31",
@@ -2478,13 +3149,13 @@
           "ro.vendor.product.cpu.abilist": "arm64-v8a,armeabi-v7a,armeabi",
           "ro.vendor.product.cpu.abilist32": "armeabi-v7a,armeabi",
           "ro.vendor.product.cpu.abilist64": "arm64-v8a",
-          "ro.vendor.build.date": "Thu Nov 25 20:28:16 GMT 2021",
-          "ro.vendor.build.date.utc": "1637872096",
-          "ro.vendor.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11252028:user/test-keys",
+          "ro.vendor.build.date": "Fri Nov 26 13:54:13 GMT 2021",
+          "ro.vendor.build.date.utc": "1637934853",
+          "ro.vendor.build.fingerprint": "Android/aosp_oriole/oriole:12/SD1A.210817.037/user11261354:user/test-keys",
           "ro.vendor.build.id": "SD1A.210817.037",
           "ro.vendor.build.tags": "test-keys",
           "ro.vendor.build.type": "user",
-          "ro.vendor.build.version.incremental": "eng.user.20211125.203002",
+          "ro.vendor.build.version.incremental": "eng.user.20211126.135416",
           "ro.vendor.build.version.release": "12",
           "ro.vendor.build.version.release_or_codename": "12",
           "ro.vendor.build.version.sdk": "31",
@@ -4122,6 +4793,813 @@
                 ],
                 "instance": [
                   "rilExternal"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "vendor": {
+        "manifest": [
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.audio"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "7.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IDevicesFactory"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@7.0::IDevicesFactory/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.audio.effect"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "7.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IEffectsFactory"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@7.0::IEffectsFactory/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.bluetooth"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IBluetoothHci"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.1::IBluetoothHci/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.bluetooth.audio"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "2.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IBluetoothAudioProvidersFactory"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@2.1::IBluetoothAudioProvidersFactory/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.boot"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "fqname": [
+              "@1.2::IBootControl/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.dumpstate"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IDumpstateDevice"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.1::IDumpstateDevice/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.graphics.allocator"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "4.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IAllocator"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@4.0::IAllocator/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.graphics.composer"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "2.4"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IComposer"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@2.4::IComposer/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.graphics.mapper"
+            ],
+            "transport": [
+              {
+                "_": "passthrough",
+                "$": {
+                  "arch": "32+64"
+                }
+              }
+            ],
+            "version": [
+              "4.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IMapper"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@4.0::IMapper/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.health"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "2.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IHealth"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@2.1::IHealth/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.media.c2"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IComponentStore"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.0::IComponentStore/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.media.omx"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IOmx"
+                ],
+                "instance": [
+                  "default"
+                ]
+              },
+              {
+                "name": [
+                  "IOmxStore"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.0::IOmx/default",
+              "@1.0::IOmxStore/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.neuralnetworks"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.3"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IDevice"
+                ],
+                "instance": [
+                  "google-armnn"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.3::IDevice/google-armnn"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.nfc"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.2"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "INfc"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.2::INfc/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.secure_element"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "fqname": [
+              "@1.2::ISecureElement/eSE1"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "android.hardware.soundtrigger"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "2.3"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "ISoundTriggerHw"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@2.3::ISoundTriggerHw/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "aidl"
+            },
+            "name": [
+              "com.google.input"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "ITouchContextService"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "ITouchContextService/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "hardware.google.bluetooth.bt_channel_avoidance"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IBTChannelAvoidance"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.0::IBTChannelAvoidance/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "hardware.google.bluetooth.ccc"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IBluetoothCcc"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.0::IBluetoothCcc/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "hardware.google.bluetooth.sar"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IBluetoothSar"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.1::IBluetoothSar/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "vendor.google.audiometricext"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IAudioMetricExt"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.0::IAudioMetricExt/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "vendor.google.google_battery"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "1.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IGoogleBattery"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@1.1::IGoogleBattery/default"
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl"
+            },
+            "name": [
+              "vendor.google.whitechapel.audio.audioext"
+            ],
+            "transport": [
+              "hwbinder"
+            ],
+            "version": [
+              "2.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IAudioExt"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ],
+            "fqname": [
+              "@2.0::IAudioExt/default"
+            ]
+          }
+        ],
+        "matrix": [
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.frameworks.displayservice"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IDisplayService"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.frameworks.schedulerservice"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "ISchedulingPolicyService"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.frameworks.sensorservice"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "ISensorManager"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.hardware.graphics.composer"
+            ],
+            "version": [
+              "2.1"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IComposer"
+                ],
+                "instance": [
+                  "vr"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.hidl.allocator"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IAllocator"
+                ],
+                "instance": [
+                  "ashmem"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.hidl.manager"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IServiceManager"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.hidl.memory"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IMapper"
+                ],
+                "instance": [
+                  "ashmem"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.hidl.token"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "ITokenManager"
+                ],
+                "instance": [
+                  "default"
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "format": "hidl",
+              "optional": "true"
+            },
+            "name": [
+              "android.system.wifi.keystore"
+            ],
+            "version": [
+              "1.0"
+            ],
+            "interface": [
+              {
+                "name": [
+                  "IKeystore"
+                ],
+                "instance": [
+                  "default"
                 ]
               }
             ]
